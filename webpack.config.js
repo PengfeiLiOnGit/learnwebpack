@@ -25,8 +25,8 @@ module.exports = {
     entry: {
         //  入口分类
         // 键值为name占位符的名称
-        app: './src/index.js',
-        print: './src/print.js'
+        app: './lib/index.js',
+        print: './lib/print.js'
     },
     output: {
         // filename: "bunlde.js",

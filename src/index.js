@@ -37,6 +37,10 @@ function component() {
   // element.appendChild(btn);
 
   // element.innerHTML = ['Hello','webpack'+ cube(5)].join('\n\n');
+  import('./export_webpack').then(module=>{
+    let m = module.default;
+    m.foo(3);
+  });
   return element;
 }
 
